@@ -1,3 +1,6 @@
 import numpy as np
-a = np.sin(np.pi/2)
-print(a)
+
+def pipx(x):
+    return np.pi+x
+
+print(pipx(2))
